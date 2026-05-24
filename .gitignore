@@ -15,6 +15,10 @@
 /auth.json
 /node_modules
 /public/build
+<<<<<<< HEAD
+=======
+/public/fonts-manifest.dev.json
+>>>>>>> ffea3a93c4157f8dab2c13f8509dd81a8985ef18
 /public/hot
 /public/storage
 /storage/*.key

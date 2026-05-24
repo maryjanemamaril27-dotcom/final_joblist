@@ -60,7 +60,11 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
+<<<<<<< HEAD
                 (PHP_VERSION_ID >= 80500 ? Mysql::ATTR_SSL_CA : PDO::MYSQL_ATTR_SSL_CA) => env('MYSQL_ATTR_SSL_CA'),
+=======
+                Mysql::ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+>>>>>>> ffea3a93c4157f8dab2c13f8509dd81a8985ef18
             ]) : [],
         ],
 
@@ -80,7 +84,11 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
+<<<<<<< HEAD
                 (PHP_VERSION_ID >= 80500 ? Mysql::ATTR_SSL_CA : PDO::MYSQL_ATTR_SSL_CA) => env('MYSQL_ATTR_SSL_CA'),
+=======
+                Mysql::ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+>>>>>>> ffea3a93c4157f8dab2c13f8509dd81a8985ef18
             ]) : [],
         ],
 
